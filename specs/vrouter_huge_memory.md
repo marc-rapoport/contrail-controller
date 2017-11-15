@@ -15,7 +15,7 @@ flexibility of inserting the Vrouter module whenever desired.
 As mentioned in the "Introduction" Vrouter Kernel Module needs to be
 inserted immediately after bootup to decrease the memory allocation
 failure. This is a big constraint and does not allow incremental
-updates or Bug Fixes to be tested on fly. Compute node needs to be
+updates or Bug Fixes to be tested on the fly. Compute node needs to be
 rebooted every time there is a change in the Vrouter. The requirement is
 to remove this constraint of inserting the module soon after the bootup.
 
